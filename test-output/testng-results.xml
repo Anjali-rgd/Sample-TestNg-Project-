@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-29T16:09:25 IST" name="Default suite" finished-at="2022-09-29T16:09:25 IST" duration-ms="81">
+    <groups>
+      <group name="GroupA">
+        <method signature="DemoOtherAttributes.testJava()[pri:0, instance:com.testcase.DemoOtherAttributes@4bb33f74]" name="testJava" class="com.testcase.DemoOtherAttributes"/>
+        <method signature="DemoOtherAttributes.testPython()[pri:0, instance:com.testcase.DemoOtherAttributes@4bb33f74]" name="testPython" class="com.testcase.DemoOtherAttributes"/>
+      </group> <!-- GroupA -->
+    </groups>
+    <test started-at="2022-09-29T16:09:25 IST" name="Default test" finished-at="2022-09-29T16:09:25 IST" duration-ms="81">
+      <class name="com.testcase.DemoOtherAttributes">
+        <test-method signature="testJava()[pri:0, instance:com.testcase.DemoOtherAttributes@4bb33f74]" started-at="2022-09-29T16:09:25 IST" name="testJava" finished-at="2022-09-29T16:09:25 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJava -->
+        <test-method signature="testPython()[pri:0, instance:com.testcase.DemoOtherAttributes@4bb33f74]" started-at="2022-09-29T16:09:25 IST" name="testPython" finished-at="2022-09-29T16:09:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPython -->
+        <test-method signature="testRuby()[pri:0, instance:com.testcase.DemoOtherAttributes@4bb33f74]" started-at="2022-09-29T16:09:25 IST" name="testRuby" depends-on-groups="GroupA" finished-at="2022-09-29T16:09:25 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRuby -->
+      </class> <!-- com.testcase.DemoOtherAttributes -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
